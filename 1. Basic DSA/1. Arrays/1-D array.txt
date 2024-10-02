@@ -1,0 +1,153 @@
+-----------------------------------Basics-------------------------------------------------
+Calculate sum of all elements in array.
+Calculate the maximum value out of all the elements in the array.
+Search the given element x in the array. If present then return the index else return -1.
+Program to count the numbers of occurences of element x in a given array.
+Program to find the last occurence of element x in a given array.
+Program to count the number of elements strictly greater than a value x.
+Program to check if an array is sorted or not.
+Program to find smallest and largest.
+Program to find the total number of pairs in array whose sum is equal to given value x.
+Program to count the number of triplets whose sum is equal to given value x.
+-----------------------------------------Solutions-----------------------------------------
+import java.util.*;
+class Questions {
+    public static int triplet(int[] arr,int n) {
+        int value=5, count=0;
+        for(int i=0; i<n-2; i++) {
+            if(arr[i]+arr[i+1]+arr[i+2] == value) count++;
+        } return count;
+    }
+    public static int pairSum(int[] arr,int n) {
+        int value=5, count=0;
+        for(int i=0; i<n-1; i++) {
+            if(arr[i]+arr[i+1] == value) count++;
+        } return count;
+    }
+    public static int smallElem(int[] arr,int n) {
+        int min = Integer.MAX_VALUE;
+        for(int i=0; i<n; i++) {
+            min = Math.min(min, arr[i]);
+        } return min;
+    }
+    public static int largestElem(int[] arr,int n) {
+        int max = Integer.MIN_VALUE;
+        for(int i=0; i<n; i++) {
+            max = Math.max(max, arr[i]);
+        } return max;
+    }
+    public static boolean sorted(int[] arr,int n) {
+        for(int i=0; i<n-1; i++) {
+            if(arr[i+1] < arr[i]) return false;
+        } return true;
+    }
+    public static int greater(int[] arr,int n) {
+        int val=5, count=0;
+        for(int i=0; i<n; i++) {
+            if(arr[i] > val) count++;
+        } return count;
+    }
+    public static int lastOccurence(int[] arr,int n) {
+        int val=5, occur=-1;
+        for(int i=0; i<n; i++) {
+            if(arr[i] == val) occur=i;
+        } return occur;
+    }
+    public static int noOfOccurence(int[] arr,int n) {
+        int val=5, count=0;
+        for(int i=0; i<n; i++) {
+            if(arr[i] == val) count++;
+        } return count;
+    }
+    public static int find(int[] arr,int n) {
+        int search = 5;
+        for(int i=0; i<n; i++) {
+            if(arr[i] == search) return i;
+        } return -1;
+    }
+    public static int maximum(int[] arr,int n) {
+       int max = Integer.MIN_VALUE;
+       for(int i=0; i<n; i++) {
+           max = Math.max(max, arr[i]);
+       } return max;
+    }
+    public static int sum(int[] arr,int n) {
+        int sum = 0;
+        for(int i=0; i<n; i++) {
+            sum += arr[i];
+        } return sum;
+    }
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter the size of an array");
+        int size = sc.nextInt();
+        System.out.print("Enter the elements of an array : ");
+        int[] arr = new int[size];
+        for(int i=0; i<size; i++) {
+            arr[i] = sc.nextInt();
+        }
+        
+        // 1st Question
+        System.out.print("The sum of array is "+sum(arr,size));
+
+	// 2nd Question
+        System.out.print("The maximum value of array is "+maximum(arr,size));
+	
+	// 3rd Question
+        System.out.print("The index value of element is "+find(arr,size));
+
+	// 4th Question
+        System.out.print("The no of occurence of element is "+noOfOccurence(arr,size));
+
+	// 5th Question
+        System.out.print("The last occurence of element is "+lastOccurence(arr,size));
+
+	// 6th Question
+        System.out.print("The number strictly greater is "+greater(arr,size));
+
+        // 7th Question
+        System.out.println(sorted(arr,size)?"Array is sorted":"Array is not sorted");
+
+        // 8th Question
+        System.out.println("The smallest element is "+smallElem(arr,size));
+        System.out.println("The biggest element is "+largestElem(arr,size));
+ 
+        // 9th Question
+        System.out.println("The total pair is "+pairSum(arr,size));
+
+        // 10th Question
+        System.out.println("The total pair is "+triplet(arr,size));
+    }
+}
+
+*******************************************************************************************
+-----------------------------------------Medium--------------------------------------------
+Swap using temporary variable.
+Swap using sum and difference.
+Reverse an array.
+Program to find second largest element in given array.
+Rotate the array by k steps.
+Program to find a unique number in a given array.
+For an array of integers return the first value that is repeating in the array.
+
+
+*******************************************************************************************
+-----------------------------------------Two Pointers--------------------------------------
+Sort an array consisting of only 0s and 1s.
+In an array 'a' move all even integer at the beginning followed by all odd integers.
+For an array 'a' sorted in non-decreasing order,return an array of square of each number sorted in non-decresing order.
+
+
+*******************************************************************************************
+------------------------------------Prefix Sum Problems------------------------------------
+Given integer array 'a', return prefix sum in the same array.
+Given Integer of size n, answer q queries to print the sum of values in given range of indices from 1 to r.
+
+
+*******************************************************************************************
+-------------------------------------BoosCoder Questions-----------------------------------
+Build array from permutation
+Concatenation of array
+Running sum of 1d array
+Richest customer wealth
+Shuffle the array
