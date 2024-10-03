@@ -1,0 +1,19 @@
+-----------------------------------------Basics--------------------------------------------
+Addition of 2 Matrices.
+Multiplication of 2 Matrices.
+Transpose of Matrix.
+Rotate a matrix 90 degrees clockwise.
+Return n rows of Pascal's Triangle.
+Return all elements of matrix in spiral order.
+Generate n*n matrix filled with elements 1 to n^2 in spiral order.
+For given matrix 'a' of dimension n*m and coordinates (l1,r1) to (l2,r2), return sum of rectangle from (l1,r1) to (l2,r2).
+Alternate method 2
+Alternate method 3
+
+
+*******************************************************************************************
+-------------------------------------BoosCoder Questions-----------------------------------
+Flipping an image
+Matrix diagonal sum
+Cell with odd value
+Transpose matrix
