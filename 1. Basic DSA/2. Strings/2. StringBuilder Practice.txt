@@ -1,0 +1,15 @@
+// setCharAt() append(ch/Str/Int)
+// insert() deleteCharAt()
+// reverse() delete(i,j)
+// charAt()
+// indexOf() lastIndexOf()
+// substring()
+
+		// Questions
+Given a string s, print all the substrings of s.
+Reverse a string.
+convert uppercase to lowercase and vice versa...
+Strings are palindrome or not.
+Count the number of palindromic substrings.
+Reverse each word in a sentence.
+Compress the given string.

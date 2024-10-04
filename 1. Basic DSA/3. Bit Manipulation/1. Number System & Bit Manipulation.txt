@@ -1,0 +1,15 @@
+Find number is odd & even?
+Which element occurs only once in array?
+All number -ve and +ve present,but only one number present once.
+Find ith bit of a number.
+Set ith bit to 1.
+Reset ith bit.
+Position of Rightmost set bit.
+Every Element occurs thrice, which element occur once.
+Find the nth magic number.
+Find number of bits in the digit.(Formula Also)
+Find it's power of 2 or not.
+Calculate a^b.
+Given a number n, find the number of set bits in it.
+Find XOR of nos from 0 to a.
+XOR of all nos between a & b.
