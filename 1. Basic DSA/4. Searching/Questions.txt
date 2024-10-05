@@ -1,0 +1,12 @@
+1.Find first occurence of element.
+1.Ceiling of a number
+2.Floor of a number
+3.Leetcode 744
+4.Leetcode 34
+5.Find position of element in infinite array
+6.Leetcode 852
+7.Leetcode 1095
+8.Leetcode 33
+9.Rotate array with duplicate elements
+10.Find rotation count.
+11.Leetcode 410
