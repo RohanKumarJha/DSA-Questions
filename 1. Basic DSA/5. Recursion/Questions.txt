@@ -1,0 +1,23 @@
+1.Print all natural numbers 1 to n using recursion.
+2.Print all natural numbers n to 1 using recursion.
+3.Find the value of n factorial
+4.Find the nth fibonacci number
+5.Given an integer, find out the sum of its digits using recursion.
+6.Given two numbers p and q, find p^q using recursion.
+7.Given a number num  and a value k, print k multiples of num.
+8.Given a number n, find the sum of natural numbers till n but with alternate signs.
+9.Let’s start with GCD.
+10.Print all the values in an array recursively.
+11.Print the max value of array
+12.Find the sum of all elements in an Array.
+13.Print whether x exists in the array or not.
+14.Return index if  x exists in the array.
+15.Return all indeces if  x exists in the array.
+16.Return all indices as Array List if x exists in the array. 
+17.Remove all character occurrences.
+18.Reverse a string using recursion.
+19.Palindrome String.
+20.Return all subsequences in an ArrayList.
+21.Print all subsequences.
+22.Print the sum of all subsets.
+23.Frog Jump.

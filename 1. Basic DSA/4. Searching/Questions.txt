@@ -1,12 +1,22 @@
 1.Find first occurence of element.
-1.Ceiling of a number
-2.Floor of a number
-3.Leetcode 744
-4.Leetcode 34
-5.Find position of element in infinite array
-6.Leetcode 852
-7.Leetcode 1095
-8.Leetcode 33
-9.Rotate array with duplicate elements
-10.Find rotation count.
-11.Leetcode 410
+2.Find the square root.
+3.Find the index of minimum element in array.
+4.Return the index of the target integer.
+5.Check for an element in a rotated sorted array.
+6.Find the target value in 2D Array.
+7.Search a 2D matrix II.
+8.Find the Peak Index.
+9.Find the Peak Element.
+10.Distribute chocolates.
+11.Race Track.
+12.Ceiling of a number
+13.Floor of a number
+14.Leetcode 744
+15.Leetcode 34
+16.Find position of element in infinite array
+17.Leetcode 852
+18.Leetcode 1095
+19.Leetcode 33
+20.Rotate array with duplicate elements
+21.Find rotation count.
+22.Leetcode 410
